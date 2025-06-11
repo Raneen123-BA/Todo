@@ -272,7 +272,7 @@ const TodoApp = () => {
               </div>
             </div>
 
-            {/* Todo Grid */}
+           
             {filteredTodos.length > 0 ? (
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {filteredTodos.map((todo, index) => (
